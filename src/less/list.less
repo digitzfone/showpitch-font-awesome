@@ -1,0 +1,19 @@
+// List Icons
+// -------------------------
+
+.@{sp-css-prefix}-ul {
+  padding-left: 0;
+  margin-left: @sp-li-width;
+  list-style-type: none;
+  > li { position: relative; }
+}
+.@{sp-css-prefix}-li {
+  position: absolute;
+  left: -@sp-li-width;
+  width: @sp-li-width;
+  top: (2em / 14);
+  text-align: center;
+  &.@{sp-css-prefix}-lg {
+    left: -@sp-li-width + (4em / 14);
+  }
+}

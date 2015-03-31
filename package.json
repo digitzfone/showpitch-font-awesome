@@ -1,0 +1,16 @@
+{
+	"name":"Showpitch-Icons",
+	"version":"0.1.0",
+	"description":"Showpitch icons powered by Font Awesome",
+	"repository":{
+		"tyoe":"git",
+		"url":"https://github.com/digitzfone/showpitch-font-awesome.git"
+	},
+  "jspm": {
+    "directories": {},
+    "devDependencies": {
+      "babel": "npm:babel@^4.7.16",
+      "babel-runtime": "npm:babel-runtime@^4.7.16"
+    }
+  }
+}
